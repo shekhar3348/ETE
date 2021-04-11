@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Calibri
+}
+
+
+/* Adding backgroung image to body*/
+
+body {
+    background-image: url('https://media.gettyimages.com/photos/blue-picture-id1213090148?s=2048x2048');
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+/* Styling of form starts here*/
+
+.container {
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.container form {
+    margin: auto;
+}
+
+.container form .form-group {
+    padding: 15px;
+}
+
+::placeholder {
+    color: black;
+    text-transform: uppercase;
+}
+
+.container form button {
+    background-color: blue;
+    color: white;
+    width: 150px;
+}
+
+
+/* Styling of form ends here*/
+
+
+/* Styling of result div starts here */
+
+#result-container {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+.jumbotron {
+    background-color: blue;
+    color: white;
+    height: 200px;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+
+/* Styling of result div ends here */
+
+@media(max-width:960px) {
+    .container form .form-group {
+        padding: 0;
+    }
+    #result-container {
+        text-align: center;
+    }
+}
